@@ -103,3 +103,22 @@ body {
 textarea{
   resize: none;
 }
+
+.z-index-max{
+  z-index: 999;
+}
+
+blockquote{
+  p{
+    quotes: none;
+    &:after{
+      content:"\e978";
+      font-family: icomoon;
+    }
+    
+    &:before{
+      content:"\e977";
+      font-family: icomoon;
+    }
+  }
+}

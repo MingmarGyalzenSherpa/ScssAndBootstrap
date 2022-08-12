@@ -208,3 +208,21 @@ body {
 textarea {
   resize: none;
 }
+
+.z-index-max {
+  z-index: 999;
+}
+
+blockquote p {
+  quotes: none;
+}
+
+blockquote p:after {
+  content: "\e978";
+  font-family: icomoon;
+}
+
+blockquote p:before {
+  content: "\e977";
+  font-family: icomoon;
+}
